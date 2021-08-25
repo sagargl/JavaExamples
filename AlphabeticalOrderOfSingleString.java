@@ -31,7 +31,6 @@ public class AlphabeticalOrderOfSingleString {
 		for(int k=0; k<chars.length; k++)
 			System.out.println(chars[k]);
 	
-		
 	}
 
 }

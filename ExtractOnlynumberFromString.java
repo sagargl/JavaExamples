@@ -8,8 +8,10 @@ public static void main(String[] args) {
 	 * \\d->Removes all the sequences of characters that mathes the given regex with 
 	 * the given replacement string
 	 */
-	str2=str.replaceAll("\\d","");
-	System.out.println(str2);
+//	str2=str.replaceAll("\\d","");
+//	System.out.println(str2);
+	str2=str.replaceAll("![0-9]","");
+	System.out.println("ddd"+str2);
 //	System.out.println(str2);
 //	st3=st3.replaceAll("[.0-9]", "");
 //	System.out.println(st3);

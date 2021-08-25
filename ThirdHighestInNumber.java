@@ -21,8 +21,7 @@ public class ThirdHighestInNumber {
 		{
 			System.out.println("Ascending numbers is"+a[k]);
 			}
-		System.out.println("Third largest numbers :"+a[size-3]
-				);
+		System.out.println("Third largest numbers :"+a[size-3]);
 		
 	}
 
